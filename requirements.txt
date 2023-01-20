@@ -4,3 +4,4 @@ numpy
 Pillow
 fastparquet
 pyarrow
+tqdm

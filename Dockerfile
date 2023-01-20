@@ -12,6 +12,8 @@ RUN apt-get update -y \
 
 COPY app/ ./
 
+RUN python preprocess.py
+
 EXPOSE 5050
 
 ENTRYPOINT ["python", "app.py"]
